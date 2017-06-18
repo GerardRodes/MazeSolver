@@ -12,7 +12,9 @@ The maze must fit the following rules:
 
 ## How it works
 The first thing it does is looking for nodes. A node is a pixel, which is at an intersection of 2 or more corridors. This way I only check the nodes, preventing unnecessary tracking of useless nodes.  
+
 Once it founds all the nodes, creates the connections between them, a connection can exist between 2 nodes if there aren't walls or other nodes between them (the connections are more or less the corridors of the maze but they get cut at nodes).  
+
 Now that every node is connected I implemented A\* algorithm to find the shortest path depending on the length of a node's connections.  
 
 ## Just show me images
