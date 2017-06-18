@@ -46,3 +46,6 @@ And finally here we got the shortest path to the goal
 
 ## Try it by yourself  
 There are more mazes to tryout at the folder `mazes`, try them editing the initialization Maze line at `maze_solver.py`
+
+## Inspired by
+[Dr Mike Pound at Computerphile](https://www.youtube.com/watch?v=rop0W4QDOUI)
