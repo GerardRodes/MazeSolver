@@ -35,11 +35,14 @@ And finally here we got the shortest path to the goal
 
 ### Now 401px
 <p align="center">
-  <img alt="Maze" src="http://i.imgur.com/RnQTlpA.png" />
+  <img alt="Maze" src="http://i.imgur.com/Iq8d7M8.png" />
 </p>
 <p align="center">
-  <img alt="Maze nodes and connections" src="http://i.imgur.com/AiDFaLK.png" />
+  <img alt="Maze nodes and connections" src="http://i.imgur.com/PNA8ImD.png" />
 </p>  
 <p align="center">
-  <img alt="Maze path" src="http://i.imgur.com/4OoJGzc.png" />
+  <img alt="Maze path" src="http://i.imgur.com/swRUrcR.png" />
 </p>  
+
+## Try it by yourself  
+There are more mazes to tryout at the folder `mazes`, try them editing the initialization Maze line at `maze_solver.py`
