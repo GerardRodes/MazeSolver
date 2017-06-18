@@ -38,10 +38,10 @@ And finally here we got the shortest path to the goal
   <img alt="Maze" src="http://i.imgur.com/Iq8d7M8.png" />
 </p>
 <p align="center">
-  <img alt="Maze nodes and connections" src="http://i.imgur.com/PNA8ImD.png" />
+  <img alt="Maze nodes and connections" src="http://i.imgur.com/swRUrcR.png" />
 </p>  
 <p align="center">
-  <img alt="Maze path" src="http://i.imgur.com/swRUrcR.png" />
+  <img alt="Maze path" src="http://i.imgur.com/PNA8ImD.png" />
 </p>  
 
 ## Try it by yourself  
