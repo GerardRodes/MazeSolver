@@ -11,7 +11,7 @@ The maze must fit the following rules:
 6. The maze will be provide as an rgb image in a png file.
 
 ## How it works
-The first thing it does is looking for nodes. A node is a pixel, which is at an intersection of 2 or more corridors. This way I only check the nodes, preventing unnecessary tracking of useless nodes.  
+The first thing it does is looking for nodes. A node is a pixel, which is at an intersection of 2 or more corridors. This way I only check the nodes, preventing unnecessary tracking of useless cells.  
 
 Once it founds all the nodes, creates the connections between them, a connection can exist between 2 nodes if there aren't walls or other nodes between them (the connections are more or less the corridors of the maze but they get cut at nodes).  
 
