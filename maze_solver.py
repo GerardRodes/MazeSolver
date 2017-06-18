@@ -98,7 +98,7 @@ class Maze(object):
     for y in range(self.height):
       for x in range(self.width):
         if self.is_node(x, y):
-          self.nodes.append( Node(x, y) )
+          self.add_node(x, y)
           
           
   def is_node(self, x, y):
@@ -114,9 +114,10 @@ class Maze(object):
       neighbours = self.get_neighbours(x, y)
       if len(neighbours) == 2:
         if neighbours[0][0] != neighbours[1][0] and neighbours[0][1] != neighbours[1][1]:
-          self.add_node(x, y)
+          return True
       else:
-        self.add_node(x, y)
+        return True
+    return False
   
   
   def add_node(self, x, y):
